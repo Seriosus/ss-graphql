@@ -1,0 +1,24 @@
+{
+  "name": "@ss-graphql/ss-graphql",
+  "version": "1.0.0",
+  "description": "Query handler for GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "BermudezMartin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Seriosus/ss-graphql.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Seriosus/ss-graphql/issues"
+  },
+  "homepage": "https://github.com/Seriosus/ss-graphql#readme",
+  "type": "module",
+  "exports": {
+    "./": "./src"
+  }
+}
