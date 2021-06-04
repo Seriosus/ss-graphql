@@ -1,7 +1,10 @@
-class Query {
-  constructor() {}
-
-  get(target, prop) {
-    return `You try to get ${prop}`;
+const Query = new Proxy(
+  {},
+  {
+    get(target, name) {
+      return `Workaround of ${name}`;
+    },
   }
-}
+);
+
+export default Query;
