@@ -1,6 +1,2 @@
-import Query from "@ss-graphql/Query.js";
-
-const query = new Query();
-console.log(query.something);
-
+import Query from "./src/Query.js";
 export { Query };
