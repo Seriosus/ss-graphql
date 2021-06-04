@@ -1,6 +1,6 @@
 {
   "name": "@ss-graphql/ss-graphql",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Query handler for GraphQL",
   "main": "index.js",
   "scripts": {
