@@ -17,8 +17,5 @@
     "url": "https://github.com/Seriosus/ss-graphql/issues"
   },
   "homepage": "https://github.com/Seriosus/ss-graphql#readme",
-  "type": "module",
-  "exports": {
-    "./": "./src"
-  }
+  "type": "module"
 }
