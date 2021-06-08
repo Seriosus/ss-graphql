@@ -167,3 +167,6 @@ const root = {
   const createdUser = await graphql(schema, transform(createUserMutation), root);
 })();
 ```
+
+### Issues? That's good I can improve :)
+Go ahead and post it, I will fix it as soon as possible
