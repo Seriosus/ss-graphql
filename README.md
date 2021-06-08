@@ -160,10 +160,10 @@ const root = {
 };
 
 (async () => {
-  const helloResult = await graphql(schema, helloQuery, root);
-  const argumentsResult = await graphql(schema, withArgumentsQuery, root);
-  const fieldsResult = await graphql(schema, returningFieldsQuery, root);
+  const helloResult = await graphql(schema, transform(helloQuery), root);
+  const argumentsResult = await graphql(schema, transform(withArgumentsQuery), root);
+  const fieldsResult = await graphql(schema, transform(returningFieldsQuery), root);
 
-  const createdUser = await graphql(schema, createUserMutation, root);
+  const createdUser = await graphql(schema, transform(createUserMutation), root);
 })();
 ```
